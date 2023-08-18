@@ -68,6 +68,7 @@ defineProps<{
                 font-size: 0.8rem;
                 font-weight: 600;
                 opacity: 0.5;
+                z-index: -1;
                 vertical-align: top;
             }
         }

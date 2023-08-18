@@ -14,7 +14,7 @@ const data: GreeterList = [
         isMain: true,
         icon: KookIcon,
         text: '加入我们的KOOK频道',
-        url: 'https://www.kookapp.cn',
+        url: 'https://kook.top/sNkfki',
         bgColor: '#87eb00',
         textColor: '#000000'
     },

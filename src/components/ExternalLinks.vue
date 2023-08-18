@@ -3,7 +3,7 @@ import { TheLink } from '@/components/BaseUI'
 
 const links = [
     {
-        url: 'https://littleskin.cn/',
+        url: 'https://littleskin.cn',
         name: 'Little Skin',
         intro: '本服使用的第三方登录站点',
     },
@@ -13,17 +13,17 @@ const links = [
         intro: '下载来自微软的JAVA环境',
     },
     {
-        url: 'https://www.oracle.com/java/technologies/downloads/',
+        url: 'https://oracle.com/java/technologies/downloads',
         name: 'Oracle JDK',
         intro: '下载来自甲骨文的JAVA环境',
     },
     {
-        url: 'https://stats.uptimerobot.com/P5kBQIv0mO/',
+        url: 'https://stats.uptimerobot.com/P5kBQIv0mO',
         name: 'Uptime Robot',
         intro: '本服在线时间监控',
     },
     {
-        url: 'https://mcstatus.io/status/java/mc.oikmc.org/',
+        url: 'https://mcstatus.io/status/java/mc.oikmc.org',
         name: 'Minecraft Server Status',
         intro: '本服MOTD信息查询',
     },
