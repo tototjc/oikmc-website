@@ -1,0 +1,31 @@
+@import './base.scss';
+
+#app {
+    padding: 0 5vw;
+}
+
+.box-mold {
+    display: flex;
+    gap: 1rem;
+    flex-flow: column nowrap;
+    background-color: var(--color-background-soft);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.flex-center {
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
+
+.icon-text-align {
+    display: flex;
+    place-items: center;
+    column-gap: 0.3em;
+
+    svg {
+        flex: 0 0 auto;
+    }
+}
+
