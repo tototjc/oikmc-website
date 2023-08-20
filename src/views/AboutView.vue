@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import AboutUs from '@/components/AboutUs.vue';
-import TheCredits from '@/components/TheCredits.vue';
+import AboutUs from '@/components/AboutUs.vue'
+import TheCredits from '@/components/TheCredits.vue'
 import TheStatement from '@/components/TheStatement.vue'
 </script>
 

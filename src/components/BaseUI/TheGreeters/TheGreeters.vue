@@ -22,11 +22,18 @@ defineProps<{
 
 <template>
     <div class="items">
-        <a target="_blank" rel="noopener noreferrer" v-for="(item, index) in list" :key="item.text" :href="item.url"
-            :class="[item.isMain || index == 0 ? 'main' : 'minor', 'item', 'icon-text-align']" :style="{
+        <a
+            target="_blank"
+            rel="noopener noreferrer"
+            v-for="(item, index) in list"
+            :key="item.text"
+            :href="item.url"
+            :class="[item.isMain || index == 0 ? 'main' : 'minor', 'item', 'icon-text-align']"
+            :style="{
                 background: item.bgColor,
                 color: item.textColor
-            }">
+            }"
+        >
             <component class="icon" :is="item.icon"></component>
             <p class="text">
                 {{ item.text }}
@@ -74,7 +81,7 @@ defineProps<{
         }
     }
 
-    &:hover>.item:hover,
+    &:hover > .item:hover,
     .item.main {
         flex: 1 0 auto;
 
@@ -83,7 +90,7 @@ defineProps<{
         }
     }
 
-    &:hover:has(.item:hover)>.item:not(:hover),
+    &:hover:has(.item:hover) > .item:not(:hover),
     .item.minor {
         flex: 0 0 auto;
 

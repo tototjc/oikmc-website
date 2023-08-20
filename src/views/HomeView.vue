@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import TheWelcome from '@/components/TheWelcome.vue'
-import IndexLogoVue from '@/components/IndexLogo.vue';
-import ExternalLinks from '@/components/ExternalLinks.vue';
+import IndexLogoVue from '@/components/IndexLogo.vue'
+import ExternalLinks from '@/components/ExternalLinks.vue'
 </script>
 
 <template>

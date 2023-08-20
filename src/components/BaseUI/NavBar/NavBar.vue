@@ -6,10 +6,9 @@ import NavMenu from './NavMenu.vue'
 import type { NavList } from './NavMenu.vue'
 
 defineProps<{
-    logo?: Logo,
-    navlist?: NavList,
+    logo?: Logo
+    navlist?: NavList
 }>()
-
 </script>
 <template>
     <Transition name="header" appear>

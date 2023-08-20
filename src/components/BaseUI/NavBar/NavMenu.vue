@@ -3,8 +3,8 @@ import { RouterLink } from 'vue-router'
 import { ref } from 'vue'
 
 interface NavItem {
-    text: string,
-    path: string,
+    text: string
+    path: string
 }
 
 type NavList = NavItem[]
@@ -12,7 +12,7 @@ type NavList = NavItem[]
 export type { NavList }
 
 defineProps<{
-    nav: NavList,
+    nav: NavList
 }>()
 
 const isActive = ref<boolean>(false)
@@ -78,15 +78,30 @@ nav {
             }
 
             &:nth-of-type(3n + 1) a::after {
-                background: linear-gradient(to right, var(--color-1-soft), var(--color-1-mute), var(--color-1-soft));
+                background: linear-gradient(
+                    to right,
+                    var(--color-1-soft),
+                    var(--color-1-mute),
+                    var(--color-1-soft)
+                );
             }
 
             &:nth-of-type(3n + 2) a::after {
-                background: linear-gradient(to right, var(--color-2-soft), var(--color-2-mute), var(--color-2-soft));
+                background: linear-gradient(
+                    to right,
+                    var(--color-2-soft),
+                    var(--color-2-mute),
+                    var(--color-2-soft)
+                );
             }
 
             &:nth-of-type(3n) a::after {
-                background: linear-gradient(to right, var(--color-3-soft), var(--color-3-mute), var(--color-3-soft));
+                background: linear-gradient(
+                    to right,
+                    var(--color-3-soft),
+                    var(--color-3-mute),
+                    var(--color-3-soft)
+                );
             }
         }
     }

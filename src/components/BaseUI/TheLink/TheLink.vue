@@ -2,9 +2,9 @@
 import LinkIcon from './LinkIcon.vue'
 
 defineProps<{
-    url: string,
-    name: string,
-    intro: string,
+    url: string
+    name: string
+    intro: string
 }>()
 </script>
 <template>

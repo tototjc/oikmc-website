@@ -2,15 +2,15 @@
 import type { Component } from 'vue'
 
 interface Logo {
-    img?: string,
-    text?: string,
-    component?: Component;
+    img?: string
+    text?: string
+    component?: Component
 }
 
 export type { Logo }
 
 defineProps<{
-    logo: Logo,
+    logo: Logo
 }>()
 </script>
 <template>

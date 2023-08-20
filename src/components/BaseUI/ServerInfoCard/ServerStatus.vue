@@ -1,23 +1,23 @@
 <script setup lang="ts">
-import OnlineIcon from './OnlineIcon.vue';
-import OfflineIcon from './OfflineIcon.vue';
-import CopyIconVue from './CopyIcon.vue';
+import OnlineIcon from './OnlineIcon.vue'
+import OfflineIcon from './OfflineIcon.vue'
+import CopyIconVue from './CopyIcon.vue'
 
 defineProps<{
-    online: boolean,
-    version: string,
+    online: boolean
+    version: string
     players: {
-        online: number | string,
-        max: number | string,
-    },
-    update: Date | string,
+        online: number | string
+        max: number | string
+    }
+    update: Date | string
 }>()
 </script>
 
 <template>
     <div class="container">
         <div class="info">
-            <div :class="[(online ? 'online' : 'offline'), 'status', 'icon-text-align']">
+            <div :class="[online ? 'online' : 'offline', 'status', 'icon-text-align']">
                 <component :is="online ? OnlineIcon : OfflineIcon"></component>
                 {{ online ? '在线' : '离线' }}
             </div>
@@ -41,9 +41,7 @@ defineProps<{
             <span>
                 Update time: <span>{{ update }}</span>
             </span>
-            <span>
-                以上数据服务器MOTD，仅供参考
-            </span>
+            <span> 以上数据服务器MOTD，仅供参考 </span>
         </div>
     </div>
 </template>

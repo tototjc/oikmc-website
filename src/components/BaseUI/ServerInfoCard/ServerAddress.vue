@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import ServerIconVue from './ServerIcon.vue';
-import CopyIconVue from './CopyIcon.vue';
-import CompassIcon from './CompassIcon.vue';
+import ServerIconVue from './ServerIcon.vue'
+import CopyIconVue from './CopyIcon.vue'
+import CompassIcon from './CompassIcon.vue'
 
 defineProps<{
     addr: string

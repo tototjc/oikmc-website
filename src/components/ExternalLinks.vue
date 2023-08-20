@@ -5,30 +5,29 @@ const links = [
     {
         url: 'https://littleskin.cn',
         name: 'Little Skin',
-        intro: '本服使用的第三方登录站点',
+        intro: '本服使用的第三方登录站点'
     },
     {
         url: 'https://docs.microsoft.com/java/openjdk/download',
         name: 'Microsoft OpenJDK',
-        intro: '下载来自微软的JAVA环境',
+        intro: '下载来自微软的JAVA环境'
     },
     {
         url: 'https://oracle.com/java/technologies/downloads',
         name: 'Oracle JDK',
-        intro: '下载来自甲骨文的JAVA环境',
+        intro: '下载来自甲骨文的JAVA环境'
     },
     {
         url: 'https://stats.uptimerobot.com/P5kBQIv0mO',
         name: 'Uptime Robot',
-        intro: '本服在线时间监控',
+        intro: '本服在线时间监控'
     },
     {
         url: 'https://mcstatus.io/status/java/mc.oikmc.org',
         name: 'Minecraft Server Status',
-        intro: '本服MOTD信息查询',
-    },
+        intro: '本服MOTD信息查询'
+    }
 ]
-
 </script>
 <template>
     <div class="links box-mold">

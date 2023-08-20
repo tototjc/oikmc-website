@@ -5,5 +5,4 @@ import InMaintenance from '@/components/InMaintenance.vue'
     <InMaintenance />
 </template>
 
-<style scoped lang="scss">
-</style>
+<style scoped lang="scss"></style>

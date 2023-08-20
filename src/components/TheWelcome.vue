@@ -45,7 +45,13 @@ const data: GreeterList = [
                     <path d="M9 14l5-5V8L9 3 8 4l4 4H2v1h10l-4 4 1 1z" />
                 </svg>
             </RouterLink>
-            <a target="_blank" rel="noopener noreferrer" class="bilibili" href="https://bilibili.com/">去Bilibili观看我们的宣传片</a>
+            <a
+                target="_blank"
+                rel="noopener noreferrer"
+                class="bilibili"
+                href="https://bilibili.com/"
+                >去Bilibili观看我们的宣传片</a
+            >
         </div>
 
         <Greeters class="greeters" :list="data" />
@@ -74,7 +80,12 @@ const data: GreeterList = [
         letter-spacing: 0.15rem;
         white-space: nowrap;
 
-        background: linear-gradient(135deg, var(--color-3-mute), var(--color-2-mute), var(--color-1-mute));
+        background: linear-gradient(
+            135deg,
+            var(--color-3-mute),
+            var(--color-2-mute),
+            var(--color-1-mute)
+        );
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;

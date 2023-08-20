@@ -1,8 +1,13 @@
 {
-    "plugins": {
-        "postcss-preset-env": {
-            "stage": 2,
-            "browsers": "last 2 versions"
-        }
+  "$schema": "https://json.schemastore.org/postcssrc",
+  "plugins": {
+    "postcss-preset-env": {
+      "stage": 3,
+      "browsers": [
+        "Firefox >= 100",
+        "Chrome >= 100",
+        "Safari >= 15"
+      ]
     }
+  }
 }

@@ -73,11 +73,8 @@ export const baseRoutes: RouteRecordRaw[] = [
         },
         meta: {
             title: '404'
-        },
+        }
     }
 ]
 
-export default [
-    ...navRoutes,
-    ...baseRoutes,
-]
+export default [...navRoutes, ...baseRoutes]
