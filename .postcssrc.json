@@ -2,7 +2,6 @@
   "$schema": "https://json.schemastore.org/postcssrc",
   "plugins": {
     "postcss-preset-env": {
-      "stage": 3,
       "browsers": [
         "Firefox >= 100",
         "Chrome >= 100",
